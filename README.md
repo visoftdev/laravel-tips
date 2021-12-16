@@ -1084,9 +1084,7 @@ Tip given by [@PascalBaljet](https://twitter.com/pascalbaljet)
 - [The `is()` method of one-to-one relationships for comparing models](#the-is-method-of-one-to-one-relationships-for-comparing-models)
 
 
-### OrderBy on Eloquent relationships
-
-You can specify orderBy() directly on your Eloquent relationships.
+### OrderBy
 
 ```php
 public function products()
@@ -1100,9 +1098,7 @@ public function productsByName()
 }
 ```
 
-### Conditional relationships
-
-If you notice that you use same relationship often with additional "where" condition, you can create a separate relationship method.
+### Conditional
 
 Model:
 ```php
